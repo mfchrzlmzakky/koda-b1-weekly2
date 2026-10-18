@@ -1,8 +1,8 @@
 import Badge from "../../components/Badge";
 import Divider from "../../components/Divider";
+import { skills } from "../../utils/skills";
 
 function SkillsSection() {
-  const skillsBadge = ["React", "TypeScript", "JavaScript", "Node.js", "Python", "PostgreeSQL", "MongoDB", "Docker", "AWS", "Next.js", "REST APIs", "GraphQL", "Tailwind CSS", "Figma", "Git"];
   return (
     <section className="py-20 bg-[#FFFFFF]">
       <div className="max-w-6xl px-6">
@@ -13,8 +13,8 @@ function SkillsSection() {
           <Divider />
         </div>
         <div className="pt-14 flex flex-wrap justify-center gap-3">
-          {skillsBadge.map((n) => (
-            <Badge title={n} />
+          {skills.map((n) => (
+            <Badge leading={5} title={n} />
           ))}
         </div>
       </div>
