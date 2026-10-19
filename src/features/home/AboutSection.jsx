@@ -7,7 +7,7 @@ function AboutSection() {
       <div className="max-w-6xl px-6">
         <div className="">
           <p className="font-semibold text-xs leading-4 tracking-[1.2px] uppercase text-[#FF5F22] text-center">Who I Am</p>
-          <h1 className="pt-3 font-bold text-3xl leading-9 text-[#101828] text-center">A Little About Me</h1>
+          <h1 className="pt-3 font-bold text-3xl leading-9 tracking-normal text-[#101828] text-center">A Little About Me</h1>
           <p className="pt-4 font-normal text-base leading-6.5 text-[#6A7282] text-center">I'm passionate about writing clean, maintainable code and crafting experiences that users genuinely enjoy.</p>
           <Divider />
         </div>

@@ -13,8 +13,8 @@ function ProjectsSection() {
         </div>
         <div className="pt-14">
           <div className="grid gap-7">
-            <div className="rounded-xl border-[0.77px] border-[#F3F4F6] bg-[#FFFFFF] shadow-sm">
-              <div className="bg-[#F3F4F6] h- w-full">
+            <div className="rounded-xl border-[0.77px] md:border-[1.08px] border-[#F3F4F6] bg-[#FFFFFF] shadow-sm">
+              <div className="bg-[#F3F4F6] w-full">
                 <img src="/images/project1Image.jpg" alt="Project 1" className="rounded-t-xl h-full w-full object-cover" />
               </div>
               <div className="p-6">
@@ -28,7 +28,7 @@ function ProjectsSection() {
                 </div>
               </div>
             </div>
-            <div className="rounded-xl border-[0.77px] border-[#F3F4F6] bg-[#FFFFFF] shadow-sm">
+            <div className="rounded-xl border-[0.77px] md:border-[1.08px] border-[#F3F4F6] bg-[#FFFFFF] shadow-sm">
               <div className="bg-[#F3F4F6] h- w-full">
                 <img src="/images/project2Image.jpg" alt="Project 1" className="rounded-t-xl h-full w-full object-cover" />
               </div>
@@ -42,7 +42,7 @@ function ProjectsSection() {
                 </div>
               </div>
             </div>
-            <div className="rounded-xl border-[0.77px] border-[#F3F4F6] bg-[#FFFFFF] shadow-sm">
+            <div className="rounded-xl border-[0.77px] md:border-[1.08px] border-[#F3F4F6] bg-[#FFFFFF] shadow-sm">
               <div className="bg-[#F3F4F6] h- w-full">
                 <img src="/images/project3Image.jpg" alt="Project 1" className="rounded-t-xl h-full w-full object-cover" />
               </div>
