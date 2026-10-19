@@ -1,4 +1,5 @@
 import AboutSection from "../features/home/AboutSection";
+import ContactSection from "../features/home/ContactSection";
 import HeroSection from "../features/home/HeroSection";
 import ProjectsSection from "../features/home/ProjectsSection";
 import SkillsSection from "../features/home/SkillsSection";
@@ -12,6 +13,7 @@ function Home() {
       <SkillsSection />
       <ProjectsSection />
       <TestiSection />
+      <ContactSection />
     </>
   );
 }
