@@ -1,9 +1,9 @@
 function Navbar() {
   return (
     <header className="sticky top-0 z-99">
-      <div className="h-16 px-6 flex justify-between items-center bg-white shadow-2xs border border-[#F3F4F6] max-w-6xl">
-        <div className="capitalize text-lg font-bold">alex carter</div>
-        <button>
+      <div className="h-16 px-6 flex justify-between items-center bg-white shadow-2xs border-b-[1.08px] border-[#F3F4F6] max-w-6xl">
+        <div className="capitalize text-lg font-bold leading-7 tracking-normal text-center text-[#111111]">alex carter</div>
+        <button className="p-2">
           <img src="/images/hamburgerIcon.png" alt="" />
         </button>
       </div>
