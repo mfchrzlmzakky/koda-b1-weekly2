@@ -2,8 +2,8 @@ import KeyStats from "./KeyStats";
 
 function HeroSection() {
   return (
-    <section className="grid max-w-6xl min-h-195 md:min-h[1067px] py-20 px-6 gap-16">
-      <div className="py-[36.42px]">
+    <section className="grid lg:grid-cols-2 max-w-6xl min-h-195 md:min-h[1067px] lg:min-h-[744.67px] py-20 px-6 gap-16 lg:text[#FFFFFF] items-center mx-auto">
+      <div className="md:py-[36.42px] lg:px-23.25">
         <p className="font-semibold text-sm leading-5 tracking-[1.4px] uppercase text-[#FF5F22]">available for hire</p>
         <h1 className="font-extrabold text-5xl pt-5 leading-15 tracking-normal">
           Hi, I'm <br />
