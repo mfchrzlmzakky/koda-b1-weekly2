@@ -1,0 +1,58 @@
+export const projectCategories = ["All", "Frontend", "Backend", "Full Stack"];
+
+export const allProjects = [
+  {
+    title: "ShopEase",
+    category: "Full Stack",
+    description: "A full-featured e-commerce platform with product catalog, shopping cart, order history, wishlists, and Stripe payment integration.",
+    image: "/images/project1Image.jpg",
+    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+    github: "https://github.com/mfchrzlmzakky/",
+    demo: "#",
+  },
+  {
+    title: "TaskFlow",
+    category: "Frontend",
+    description: "A drag-and-drop task management app with real-time collaboration, team workspaces, priority labels, and deadline tracking.",
+    image: "/images/project2Image.jpg",
+    tags: ["React", "TypeScript", "Firebase"],
+    github: "https://github.com/mfchrzlmzakky/",
+    demo: "#",
+  },
+  {
+    title: "WeatherNow",
+    category: "Frontend",
+    description: "A weather dashboard with 7-day forecasts, hourly charts, interactive maps, and location-based weather alerts powered by OpenWeather.",
+    image: null,
+    tags: ["React", "OpenWeather API", "CSS3"],
+    github: "https://github.com/mfchrzlmzakky/",
+    demo: "#",
+  },
+  {
+    title: "ChatSpace",
+    category: "Full Stack",
+    description: "Real-time messaging platform with channels, direct messages, file sharing, emoji reactions, and user presence indicators.",
+    image: "/images/project3Image.jpg",
+    tags: ["React", "Socket.io", "Express", "MongoDB"],
+    github: "https://github.com/mfchrzlmzakky/",
+    demo: "#",
+  },
+  {
+    title: "PortfolioGen",
+    category: "Full Stack",
+    description: "A no-code portfolio builder that generates beautiful, responsive developer websites from a simple guided multi-step form.",
+    image: "/images/project4Image.jpg",
+    tags: ["Next.js", "Tailwind CSS", "Supabase", "Vercel"],
+    github: "https://github.com/mfchrzlmzakky/",
+    demo: "#",
+  },
+  {
+    title: "BlogCMS",
+    category: "Backend",
+    description: "A headless CMS and blog platform with Markdown support, tags, categories, scheduled publishing, and an admin dashboard.",
+    image: "/images/project5Image.jpg",
+    tags: ["Next.js", "PostgreSQL", "Prisma", "TypeScript"],
+    github: "https://github.com/mfchrzlmzakky/",
+    demo: "#",
+  },
+];
