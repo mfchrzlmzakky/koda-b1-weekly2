@@ -5,9 +5,13 @@ import Routing from "./components/Routing";
 function App() {
   return (
     <>
-      <Navbar></Navbar>
-      <Routing></Routing>
-      <Footer></Footer>
+      <div className="min-h-screen flex flex-col">
+        <Navbar></Navbar>
+        <main className="flex-1">
+          <Routing></Routing>
+        </main>
+        <Footer></Footer>
+      </div>
     </>
   );
 }

@@ -1,14 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router";
 import { RiMenuLine, RiCloseLine } from "@remixicon/react";
-
-const navItems = [
-  { label: "Home", to: "/" },
-  { label: "About", to: "/about" },
-  { label: "Projects", to: "/projects" },
-  { label: "Experience", to: "/experience" },
-  { label: "Contact", to: "/contact" },
-];
+import { navItems } from "../utils/navigation";
 
 function Navbar() {
   const [open, setOpen] = useState(false);

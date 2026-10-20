@@ -1,18 +1,6 @@
 import { Link } from "react-router";
 import { RiArrowUpLine } from "@remixicon/react";
-
-const socials = [
-  { label: "GitHub", href: "https://github.com/mfchrzlmzakky/" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/mochammadfachrizalmuzakky/" },
-  { label: "Twitter", href: "https://github.com/mfchrzlmzakky/" },
-];
-const quickLinks = [
-  { label: "Home", to: "/" },
-  { label: "About", to: "/about" },
-  { label: "Projects", to: "/projects" },
-  { label: "Experience", to: "/experience" },
-  { label: "Contact", to: "/contact" },
-];
+import { navItems, socials } from "../utils/navigation";
 
 function Footer() {
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
@@ -35,7 +23,7 @@ function Footer() {
           <div>
             <h3 className="font-semibold text-sm leading-5 tracking-[0.7px] uppercase text-white">Quick Links</h3>
             <div className="pt-5 grid gap-3">
-              {quickLinks.map((item) => (
+              {navItems.map((item) => (
                 <Link key={item.label} to={item.to} className="w-fit font-normal text-sm leading-5 text-[#99A1AF] transition-colors hover:text-white">
                   {item.label}
                 </Link>
